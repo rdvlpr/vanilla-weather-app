@@ -81,6 +81,10 @@ span.units {
   opacity: 0.5;
 }
 
+.forecast-icon {
+  width: 50px;
+}
+
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
@@ -97,10 +101,14 @@ span.units {
 #description {
   text-transform: capitalize;
 }
+
 #celsius-link,
 #fahrenheit-link {
   position: relative;
   left: 104px;
   bottom: 14px;
   text-decoration: none;
+}
+
+.col-2 {
 }
