@@ -86,8 +86,8 @@ function displayForecast(response) {
         )}°</span>
       </div>
       <div 
-      class="weather-forecast-desc">
-      Sunny 
+      class="weather-forecast-desc"> ${forecastDay.condition.description}
+       
       </div>
       </div>
    `;
